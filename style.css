@@ -1,0 +1,54 @@
+body {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+h1 {
+    text-align: center;
+}
+
+main {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+textarea {
+    width: 600px;
+    height: 200px;
+}
+
+.keyboard {
+    width: 600px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 4px;
+    border: 3px solid;
+}
+
+.row {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.btn {
+    min-width: 34px;
+    min-height: 34px;
+}
+
+.area {
+    min-width: 272px;
+}
+
+.shift {
+    min-width: 72px;
+}
+
+.enter {
+    min-width: 72px;
+}
